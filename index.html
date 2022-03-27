@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div class="appWrapper">
+    <h1 class="heading">TEST YOUR TYPING SPEED</h1>
+
+    <div class="topWrapper">
+      <div class="timer">timer<span class="countdown"></span></div>
+
+      <div class="midElements">
+        <div class="report">
+          <div class="reportElement" id="wpm">WPM<span id="reportWPM"></span></div>
+          <div class="reportElement" id="cpm">CMP<span id="reportCPM"></span></div>
+          <div class="reportElement" id="accuracy">accuracy<span id="reportAccuracy"></span></div>
+          <div class="reportElement" id="incorrectWords">incorrect words<span id="reportIncorrectWords"></span></div>
+        </div>
+        <div class="textDataClass" id='textData'></div>
+      </div>
+      <div class="errorWrapper">error<span class="errorCounter"></span></div>
+    </div>
+
+    <input type="text" name="inputText" id="inputText">
+
+  </div>
+  <script src="typeTest.js"></script>
+</body>
+
+</html>
